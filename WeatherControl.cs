@@ -39,7 +39,7 @@ namespace WPF_task6
                 return 0;
         }
 
-        public int Temperature 
+        public int Temperature // Температура
         {
             get => (int)GetValue(TemperatureProperty);
             set => SetValue(TemperatureProperty, value);
